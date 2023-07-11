@@ -14,15 +14,51 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 56px
+  gap: 56px;
+  margin: 112px 180px 56px 180px;
+}
+
+picture img{
+  width: 409px;
+  height: 293px;
 }
 
 .info h1{
   font-size: 72px;
+  color:#58190A;
+
   
 }
 
 .info p{
   font-size:38px;
   color: #58190A;
+  margin:30px 0;
+  
+}
+
+.buttons span,
+.buttons p{
+  color: #9B6647; 
+  font-size: 35px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+}
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.botton{
+  display: flex;
+  background-color:#9B6647;
+  height: 100vh;
+  justify-content: center;
+  gap: 64px;
+  padding: 64px 50px;
 }
